@@ -1,0 +1,31 @@
+{
+  "name": "masrafi115/composer-offline",
+  "type": "library",
+  "description": "Doctrine Lexer Sample",
+  "homepage": "https://github.com/masrafi115",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "masrafi115",
+      "email": "masrafi115@github.com"
+    }
+  ],
+      "repositories": [
+        {
+            "type": "artifact",
+            "url": "artifact/"
+        }, {
+            "packagist": false
+        }
+    ],
+  "require": {
+    "php": "^8.0",
+    "doctrine/lexer": "^1.0",
+    "doctrine/common": "^2.6"
+  },
+  "autoload": {
+        "psr-4": {
+            "Portal\\": "src/"
+        }
+    }
+}
